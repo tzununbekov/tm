@@ -44,9 +44,11 @@ require (
 	github.com/aws/aws-sdk-go v1.31.6 // indirect
 	github.com/bombsimon/wsl/v2 v2.2.0 // indirect
 	github.com/bombsimon/wsl/v3 v3.1.0 // indirect
+	github.com/c2h5oh/datasize v0.0.0-20200112174442-28bbd4740fee // indirect
 	github.com/cloudevents/sdk-go v1.0.0 // indirect
 	github.com/cloudevents/sdk-go/v2 v2.0.0 // indirect
 	github.com/containerd/containerd v1.3.0 // indirect
+	github.com/dgryski/go-lttb v0.0.0-20180810165845-318fcdf10a77 // indirect
 	github.com/docker/cli v0.0.0-20200210162036-a4bedce16568 // indirect
 	github.com/docker/distribution v2.7.1+incompatible // indirect
 	github.com/docker/docker v1.4.2-0.20190924003213-a8608b5b67c7 // indirect
@@ -68,8 +70,9 @@ require (
 	github.com/golangci/misspell v0.3.5 // indirect
 	github.com/golangci/revgrep v0.0.0-20180812185044-276a5c0a1039 // indirect
 	github.com/google/go-cmp v0.5.0 // indirect
-	github.com/google/go-containerregistry v0.1.1 // indirect
+	github.com/google/go-github/v27 v27.0.6 // indirect
 	github.com/google/gofuzz v1.1.0 // indirect
+	github.com/google/licenseclassifier v0.0.0-20200402202327-879cb1424de0 // indirect
 	github.com/google/wire v0.4.0 // indirect
 	github.com/googleapis/gnostic v0.4.0 // indirect
 	github.com/goreleaser/goreleaser v0.136.0 // indirect
@@ -79,6 +82,7 @@ require (
 	github.com/hashicorp/go-multierror v1.1.0 // indirect
 	github.com/hashicorp/go-retryablehttp v0.6.6 // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
+	github.com/influxdata/tdigest v0.0.1 // indirect
 	github.com/jenkins-x/go-scm v1.5.117 // indirect
 	github.com/jirfag/go-printf-func-name v0.0.0-20200119135958-7558a9eaa5af // indirect
 	github.com/knative/build v0.7.0
@@ -91,6 +95,7 @@ require (
 	github.com/mattn/go-runewidth v0.0.8 // indirect
 	github.com/maxbrunsfeld/counterfeiter/v6 v6.2.2 // indirect
 	github.com/mholt/archiver v2.1.0+incompatible
+	github.com/miekg/dns v1.1.29 // indirect
 	github.com/mitchellh/mapstructure v1.3.1 // indirect
 	github.com/morikuni/aec v1.0.0 // indirect
 	github.com/nbio/st v0.0.0-20140626010706-e9e8d9816f32 // indirect
@@ -117,12 +122,15 @@ require (
 	github.com/spf13/viper v1.7.0 // indirect
 	github.com/stretchr/testify v1.5.1
 	github.com/tdakkota/asciicheck v0.0.0-20200416200610-e657995f937b // indirect
-	github.com/tektoncd/pipeline v0.11.2
+	github.com/tektoncd/pipeline v0.9.2
 	github.com/tektoncd/plumbing v0.0.0-20200430135134-e53521e1d887 // indirect
 	github.com/tektoncd/plumbing/pipelinerun-logs v0.0.0-20191206114338-712d544c2c21 // indirect
 	github.com/tektoncd/triggers v0.4.0
 	github.com/tetafro/godot v0.4.2 // indirect
 	github.com/timakin/bodyclose v0.0.0-20200424151742-cb6215831a94 // indirect
+	github.com/tsenart/go-tsz v0.0.0-20180814235614-0bd30b3df1c3 // indirect
+	github.com/tsenart/vegeta v12.7.1-0.20190725001342-b5f4fca92137+incompatible // indirect
+	github.com/vdemeester/k8s-pkg-credentialprovider v1.13.12 // indirect
 	github.com/xanzy/go-gitlab v0.32.0 // indirect
 	go.opencensus.io v0.22.4 // indirect
 	go.uber.org/zap v1.15.0 // indirect
@@ -143,13 +151,13 @@ require (
 	k8s.io/api v0.17.6
 	k8s.io/apiextensions-apiserver v0.17.6 // indirect
 	k8s.io/apimachinery v0.17.6
-	k8s.io/client-go v11.0.1-0.20190805182717-6502b5e7b1b5+incompatible
+	k8s.io/client-go v0.0.0-20191016110837-54936ba21026
+	k8s.io/code-generator v0.18.0 // indirect
 	k8s.io/component-base v0.17.4 // indirect
 	k8s.io/gengo v0.0.0-20191108084044-e500ee069b5c // indirect
 	k8s.io/kube-openapi v0.0.0-20200410145947-bcb3869e6f29 // indirect
 	k8s.io/legacy-cloud-providers v0.17.4 // indirect
 	k8s.io/utils v0.0.0-20200324210504-a9aa75ae1b89 // indirect
-	knative.dev/caching v0.0.0-20200521155757-e78d17bc250e // indirect
 	knative.dev/eventing v0.12.0
 	knative.dev/eventing-contrib v0.14.2
 	knative.dev/pkg v0.0.0-20200623204627-e0a0d63a9e86
